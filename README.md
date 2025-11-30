@@ -3,15 +3,15 @@
 This AI agent is designed to search the internet, scrape real-time information from multiple websites, and summarize the content using AI models.
 
 Tools used:
--playwright: opens real websites like a browser
--beautifulsoup4: cleans and extracts text from HTML
--requests: handles basic HTTP requests
--transformers: HuggingFace models (your summarizer)
--torch: backend for running the AI model
--langchain: agent structure / orchestration
--python-dotenv: manage environment variables (future-safe)
--streamlit: for optional UI/dashboard later
--pandas: for future data processing or reports
+- playwright: opens real websites like a browser
+- beautifulsoup4: cleans and extracts text from HTML
+- requests: handles basic HTTP requests
+- transformers: HuggingFace models 
+- torch: backend for running the AI model
+- langchain: agent structure 
+- python-dotenv: manage environment variables 
+- streamlit: for dashboard 
+- pandas: for future data processing or reports
 
 ## Key Features
 - Autonomous web scraping
